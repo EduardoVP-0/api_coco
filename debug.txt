@@ -1,0 +1,8 @@
+Inicio del script
+JSON recibido: {"titulo":"sssssssss","fecha":"2025-11-19","hora_inicio":"sssf","hora_cierre":"444","recordatorio":"fgh","descripcion":"1234","categoria":"Categoría 2"}
+Error de conexión: 
+Inicio del script
+JSON recibido: {"titulo":"sisi","fecha":"2025-11-21","hora_inicio":"4","hora_cierre":"6","recordatorio":"ff","descripcion":"qwer","categoria":"Categoría 2"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('sisi', '2025-11-21', '4', '6', 'ff', 'qwer', 'Categoría 2')
+Inserción exitosa
