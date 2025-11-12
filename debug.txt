@@ -6,3 +6,313 @@ JSON recibido: {"titulo":"sisi","fecha":"2025-11-21","hora_inicio":"4","hora_cie
 Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
         VALUES ('sisi', '2025-11-21', '4', '6', 'ff', 'qwer', 'Categoría 2')
 Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"sssss","fecha":"2025-11-13","hora_inicio":"2","hora_cierre":"3","recordatorio":"asd","descripcion":"222","categoria":"Categoría 2"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('sssss', '2025-11-13', '2', '3', 'asd', '222', 'Categoría 2')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"Pago provisional de ISR","fecha":"2025-11-20","hora_inicio":"09:00:00","hora_cierre":"18:00:00","recordatorio":"15","descripcion":"Presentar y pagar declaracion provisional del ISR de octubre","categoria":"Categoría 2"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('Pago provisional de ISR', '2025-11-20', '09:00:00', '18:00:00', '15', 'Presentar y pagar declaracion provisional del ISR de octubre', 'Categoría 2')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ssss","fecha":"2025-11-11","hora_inicio":"00:14:00","hora_cierre":"15:00:00","recordatorio":"40","descripcion":"aaaa","categoria":"Categoría 2"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ssss', '2025-11-11', '00:14:00', '15:00:00', '40', 'aaaa', 'Categoría 2')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"","fecha":"2025-11-28","hora_inicio":"00:00:00","hora_cierre":"07:00:00","recordatorio":"5","descripcion":"w","categoria":"Categoría 2"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('', '2025-11-28', '00:00:00', '07:00:00', '5', 'w', 'Categoría 2')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"1234","fecha":"2025-11-21","hora_inicio":"09:00:00","hora_cierre":"13:00:00","recordatorio":"5","descripcion":"ssssss","categoria":"Categoría 1"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('1234', '2025-11-21', '09:00:00', '13:00:00', '5', 'ssssss', 'Categoría 1')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"123","fecha":"2025-11-22","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"5","descripcion":"ssssassdf","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('123', '2025-11-22', '09:00:00', '14:00:00', '5', 'ssssassdf', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"234","fecha":"2025-11-22","hora_inicio":"09:00:00","hora_cierre":"13:00:00","recordatorio":"5","descripcion":"asd","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('234', '2025-11-22', '09:00:00', '13:00:00', '5', 'asd', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ty","fecha":"2025-11-27","hora_inicio":"11:00:00","hora_cierre":"13:00:00","recordatorio":"30","descripcion":"sss","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ty', '2025-11-27', '11:00:00', '13:00:00', '30', 'sss', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asd","fecha":"2025-11-28","hora_inicio":"00:00:00","hora_cierre":"13:00:00","recordatorio":"35","descripcion":"6666","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asd', '2025-11-28', '00:00:00', '13:00:00', '35', '6666', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ssssss","fecha":"2025-11-26","hora_inicio":"00:00:00","hora_cierre":"18:00:00","recordatorio":"5","descripcion":"234","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ssssss', '2025-11-26', '00:00:00', '18:00:00', '5', '234', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"1234","fecha":"2025-11-28","hora_inicio":"00:00:00","hora_cierre":"14:00:00","recordatorio":"5","descripcion":"1234","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('1234', '2025-11-28', '00:00:00', '14:00:00', '5', '1234', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdfs","fecha":"2025-11-28","hora_inicio":"01:00:00","hora_cierre":"12:00:00","recordatorio":"5","descripcion":"asdf","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdfs', '2025-11-28', '01:00:00', '12:00:00', '5', 'asdf', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"1233","fecha":"2025-11-26","hora_inicio":"00:00:00","hora_cierre":"14:00:00","recordatorio":"5","descripcion":"asd","categoria":"Obligaciones fiscales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('1233', '2025-11-26', '00:00:00', '14:00:00', '5', 'asd', 'Obligaciones fiscales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"312343","fecha":"2025-11-29","hora_inicio":"09:00:00","hora_cierre":"21:00:00","recordatorio":"40","descripcion":"asdf","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('312343', '2025-11-29', '09:00:00', '21:00:00', '40', 'asdf', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"fff","fecha":"2025-11-27","hora_inicio":"09:00:00","hora_cierre":"15:00:00","recordatorio":"5","descripcion":"222","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('fff', '2025-11-27', '09:00:00', '15:00:00', '5', '222', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdf","fecha":"2025-11-26","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"1234","categoria":"Obligaciones fiscales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdf', '2025-11-26', '09:00:00', '14:00:00', '35', '1234', 'Obligaciones fiscales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdf","fecha":"2025-11-25","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"dddd","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdf', '2025-11-25', '09:00:00', '14:00:00', '35', 'dddd', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdf","fecha":"2025-11-26","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"25","descripcion":"asdf","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdf', '2025-11-26', '09:00:00', '14:00:00', '25', 'asdf', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdf","fecha":"2025-11-27","hora_inicio":"02:00:00","hora_cierre":"14:00:00","recordatorio":"30","descripcion":"ffff","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdf', '2025-11-27', '02:00:00', '14:00:00', '30', 'ffff', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"2222","fecha":"2025-11-27","hora_inicio":"11:12:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"asdf","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('2222', '2025-11-27', '11:12:00', '14:00:00', '35', 'asdf', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"1234","fecha":"2025-11-26","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"5","descripcion":"sss","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('1234', '2025-11-26', '09:00:00', '14:00:00', '5', 'sss', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ssss","fecha":"2025-11-09","hora_inicio":"09:00:00","hora_cierre":"12:00:00","recordatorio":"30","descripcion":"asdf","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ssss', '2025-11-09', '09:00:00', '12:00:00', '30', 'asdf', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdf","fecha":"2025-11-09","hora_inicio":"04:00:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"2","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdf', '2025-11-09', '04:00:00', '14:00:00', '35', '2', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdfd","fecha":"2025-11-08","hora_inicio":"00:00:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"3333","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdfd', '2025-11-08', '00:00:00', '14:00:00', '35', '3333', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"OLA","fecha":"2025-11-09","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"30","descripcion":"12","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('OLA', '2025-11-09', '09:00:00', '14:00:00', '30', '12', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ssssfg","fecha":"2025-11-09","hora_inicio":"08:00:00","hora_cierre":"21:05:00","recordatorio":"30","descripcion":"23","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ssssfg', '2025-11-09', '08:00:00', '21:05:00', '30', '23', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"asdf","fecha":"2025-11-09","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"30","descripcion":"2","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('asdf', '2025-11-09', '09:00:00', '14:00:00', '30', '2', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"1234","fecha":"2025-11-09","hora_inicio":"08:00:00","hora_cierre":"14:00:00","recordatorio":"25","descripcion":"dddd","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('1234', '2025-11-09', '08:00:00', '14:00:00', '25', 'dddd', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"sdf","fecha":"2025-11-09","hora_inicio":"10:00:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"df","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('sdf', '2025-11-09', '10:00:00', '14:00:00', '35', 'df', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"uuuu","fecha":"2025-11-09","hora_inicio":"07:00:00","hora_cierre":"14:00:00","recordatorio":"25","descripcion":"asd","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('uuuu', '2025-11-09', '07:00:00', '14:00:00', '25', 'asd', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"1234","fecha":"2025-11-09","hora_inicio":"05:00:00","hora_cierre":"13:00:00","recordatorio":"5","descripcion":"ffff","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('1234', '2025-11-09', '05:00:00', '13:00:00', '5', 'ffff', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ffff","fecha":"2025-11-10","hora_inicio":"02:00:00","hora_cierre":"15:00:00","recordatorio":"35","descripcion":"1234","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ffff', '2025-11-10', '02:00:00', '15:00:00', '35', '1234', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ssss","fecha":"2025-11-09","hora_inicio":"09:00:00","hora_cierre":"15:00:00","recordatorio":"5","descripcion":"tttt","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ssss', '2025-11-09', '09:00:00', '15:00:00', '5', 'tttt', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ss","fecha":"2025-11-09","hora_inicio":"08:00:00","hora_cierre":"09:00:00","recordatorio":"5","descripcion":"fff","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ss', '2025-11-09', '08:00:00', '09:00:00', '5', 'fff', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"12345","fecha":"2025-11-09","hora_inicio":"07:00:00","hora_cierre":"14:00:00","recordatorio":"5","descripcion":"ggggg","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('12345', '2025-11-09', '07:00:00', '14:00:00', '5', 'ggggg', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"132345","fecha":"2025-11-09","hora_inicio":"09:00:00","hora_cierre":"21:00:00","recordatorio":"35","descripcion":"345","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('132345', '2025-11-09', '09:00:00', '21:00:00', '35', '345', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"3456","fecha":"2025-11-10","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"5","descripcion":"sdf","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('3456', '2025-11-10', '09:00:00', '14:00:00', '5', 'sdf', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"d","fecha":"2025-11-10","hora_inicio":"00:00:00","hora_cierre":"15:00:00","recordatorio":"30","descripcion":"sss","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('d', '2025-11-10', '00:00:00', '15:00:00', '30', 'sss', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"sdff","fecha":"2025-11-10","hora_inicio":"09:00:00","hora_cierre":"14:10:00","recordatorio":"5","descripcion":"dfg","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('sdff', '2025-11-10', '09:00:00', '14:10:00', '5', 'dfg', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"sdf","fecha":"2025-11-09","hora_inicio":"12:00:00","hora_cierre":"15:00:00","recordatorio":"30","descripcion":"fff","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('sdf', '2025-11-09', '12:00:00', '15:00:00', '30', 'fff', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"Evento Fiscal1","fecha":"2025-11-11","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"Chambe","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('Evento Fiscal1', '2025-11-11', '09:00:00', '14:00:00', '35', 'Chambe', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"sdfg","fecha":"2025-11-11","hora_inicio":"09:00:00","hora_cierre":"13:00:00","recordatorio":"30","descripcion":"","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('sdfg', '2025-11-11', '09:00:00', '13:00:00', '30', '', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"SOY EL NUEVO","fecha":"2025-11-10","hora_inicio":"09:00:00","hora_cierre":"15:00:00","recordatorio":"30","descripcion":"SDFG","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('SOY EL NUEVO', '2025-11-10', '09:00:00', '15:00:00', '30', 'SDFG', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"345","fecha":"2025-11-12","hora_inicio":"09:00:00","hora_cierre":"12:10:00","recordatorio":"35","descripcion":"yhhhh","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('345', '2025-11-12', '09:00:00', '12:10:00', '35', 'yhhhh', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"144444","fecha":"2025-11-10","hora_inicio":"08:00:00","hora_cierre":"12:00:00","recordatorio":"25","descripcion":"HHHH","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('144444', '2025-11-10', '08:00:00', '12:00:00', '25', 'HHHH', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"212344","fecha":"2025-11-13","hora_inicio":"09:00:00","hora_cierre":"21:00:00","recordatorio":"35","descripcion":"fghf","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('212344', '2025-11-13', '09:00:00', '21:00:00', '35', 'fghf', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"sdf12345","fecha":"2025-11-03","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"5","descripcion":"asdf","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('sdf12345', '2025-11-03', '09:00:00', '14:00:00', '5', 'asdf', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"yyyyy","fecha":"2025-11-10","hora_inicio":"06:50:00","hora_cierre":"21:00:00","recordatorio":"5","descripcion":"ghj","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('yyyyy', '2025-11-10', '06:50:00', '21:00:00', '5', 'ghj', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"yyyyy","fecha":"2025-11-26","hora_inicio":"09:00:00","hora_cierre":"21:00:00","recordatorio":"40","descripcion":"ggg","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('yyyyy', '2025-11-26', '09:00:00', '21:00:00', '40', 'ggg', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"gggggg","fecha":"2025-11-30","hora_inicio":"12:00:00","hora_cierre":"03:00:00","recordatorio":"35","descripcion":"tttt","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('gggggg', '2025-11-30', '12:00:00', '03:00:00', '35', 'tttt', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"OLALALALALA","fecha":"2025-11-20","hora_inicio":"07:00:00","hora_cierre":"21:00:00","recordatorio":"60","descripcion":"","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('OLALALALALA', '2025-11-20', '07:00:00', '21:00:00', '60', '', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"HOLA","fecha":"2025-11-13","hora_inicio":"09:00:00","hora_cierre":"13:00:00","recordatorio":"35","descripcion":"ASDF","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('HOLA', '2025-11-13', '09:00:00', '13:00:00', '35', 'ASDF', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ggggg","fecha":"2025-11-13","hora_inicio":"02:00:00","hora_cierre":"21:00:00","recordatorio":"40","descripcion":"","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ggggg', '2025-11-13', '02:00:00', '21:00:00', '40', '', 'Emprendimiento')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"SDDFFFTTTT","fecha":"2025-11-13","hora_inicio":"14:00:00","hora_cierre":"18:00:00","recordatorio":"30","descripcion":"TTTTT","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('SDDFFFTTTT', '2025-11-13', '14:00:00', '18:00:00', '30', 'TTTTT', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ASFFFF","fecha":"2025-11-13","hora_inicio":"01:00:00","hora_cierre":"15:00:00","recordatorio":"40","descripcion":"ASDGGGG","categoria":"Finanzas personales"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ASFFFF', '2025-11-13', '01:00:00', '15:00:00', '40', 'ASDGGGG', 'Finanzas personales')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"DDDD","fecha":"2025-11-10","hora_inicio":"09:00:00","hora_cierre":"15:00:00","recordatorio":"30","descripcion":"dddd","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('DDDD', '2025-11-10', '09:00:00', '15:00:00', '30', 'dddd', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"TTTTT","fecha":"2025-11-10","hora_inicio":"01:10:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"DFFA","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('TTTTT', '2025-11-10', '01:10:00', '14:00:00', '35', 'DFFA', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"SSIGM","fecha":"2025-11-26","hora_inicio":"10:00:00","hora_cierre":"21:00:00","recordatorio":"35","descripcion":"ASDFG","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('SSIGM', '2025-11-26', '10:00:00', '21:00:00', '35', 'ASDFG', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"OLA","fecha":"2025-11-26","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"40","descripcion":"SSSSD","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('OLA', '2025-11-26', '09:00:00', '14:00:00', '40', 'SSSSD', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"ASDFG","fecha":"2025-11-26","hora_inicio":"08:00:00","hora_cierre":"14:00:00","recordatorio":"25","descripcion":"FFFF","categoria":"Multas y avisos"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('ASDFG', '2025-11-26', '08:00:00', '14:00:00', '25', 'FFFF', 'Multas y avisos')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"DDDDDSS","fecha":"2025-11-26","hora_inicio":"11:00:00","hora_cierre":"14:00:00","recordatorio":"30","descripcion":"RTY","categoria":"Seguridad social"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('DDDDDSS', '2025-11-26', '11:00:00', '14:00:00', '30', 'RTY', 'Seguridad social')
+Inserción exitosa
+Inicio del script
+JSON recibido: {"titulo":"PRUEBA VERDADERA","fecha":"2025-11-11","hora_inicio":"09:00:00","hora_cierre":"14:00:00","recordatorio":"35","descripcion":"ASDF","categoria":"Emprendimiento"}
+Consulta SQL: INSERT INTO eventos (titulo, fecha, hora_inicio, hora_cierre, recordatorio, descripcion, categoria)
+        VALUES ('PRUEBA VERDADERA', '2025-11-11', '09:00:00', '14:00:00', '35', 'ASDF', 'Emprendimiento')
+Inserción exitosa
