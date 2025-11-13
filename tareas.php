@@ -48,7 +48,7 @@ switch ($method) {
         parse_str(file_get_contents("php://input"), $_PUT);
         $id = $_PUT['id'];
         $completado = $_PUT['completado'];
-        $fecha_completado = $completado == '1' ? date('Y-m-d') : 'NULL';
+        $fecha_completado = $completado == '1' ? "'".date('Y-m-d')."'" : "NULL";
 
         $sql = "UPDATE tareas SET completado = $completado, fecha_completado = $fecha_completado WHERE id = $id";
         $conn->query($sql);
@@ -57,8 +57,13 @@ switch ($method) {
 
     case 'DELETE':
         $id = $_GET['id'];
-        $sql = "DELETE FROM tareas WHERE id = $id";
-        $conn->query($sql);
-        echo json_encode(["success" => true]);
+
+// Eliminar subtareas primero
+$conn->query("DELETE FROM subtareas WHERE tarea_id = $id");
+
+// Luego eliminar la tarea
+$conn->query("DELETE FROM tareas WHERE id = $id");
+
+echo json_encode(["success" => true]);
         break;
 }
