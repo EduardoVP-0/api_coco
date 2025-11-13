@@ -21,7 +21,7 @@ $conn = new mysqli($host, $user, $pass, $dbname, $port);
 
 // Verificar conexión
 if ($conn->connect_error) {
-    echo json_encode(["success" => false, "message" => "Error de conexión a la base de datos"]);
+    echo json_encode(["success" => false, "message" => "Error de conexión a la base de datos: " . $conn->connect_error]);
     exit;
 }
 
@@ -36,7 +36,7 @@ if (empty($json)) {
 $input = json_decode($json, true);
 
 if (json_last_error() !== JSON_ERROR_NONE) {
-    echo json_encode(["success" => false, "message" => "Datos JSON inválidos"]);
+    echo json_encode(["success" => false, "message" => "Datos JSON inválidos: " . json_last_error_msg()]);
     exit;
 }
 
@@ -45,6 +45,7 @@ $nombre = $input['nombre'] ?? '';
 $rfc = $input['rfc'] ?? '';
 $regimen_fiscal = $input['regimenFiscal'] ?? '';
 $email = $input['email'] ?? '';
+$pass = $input['pass'] ?? '';
 $lada = $input['lada'] ?? '';
 $celular = $input['celular'] ?? '';
 $fecha_nacimiento_input = $input['fechaNacimiento'] ?? '';
@@ -84,21 +85,21 @@ function convertirFecha($fecha_input) {
 $fecha_nacimiento = convertirFecha($fecha_nacimiento_input);
 
 // Validar campos obligatorios
-if (empty($nombre) || empty($rfc) || empty($regimen_fiscal) || empty($email)) {
+if (empty($nombre) || empty($rfc) || empty($regimen_fiscal) || empty($email) || empty($pass)) {
     echo json_encode(["success" => false, "message" => "Faltan campos obligatorios"]);
     exit;
 }
 
-// Preparar INSERT
+// Preparar INSERT CORREGIDO
 $sql = "INSERT INTO usuario (
     nombre, rfc, regimen_fiscal, email, lada, celular, fecha_nacimiento,
-    calle, colonia, numero, cp, ciudad, estado, pais
-) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    calle, colonia, numero, cp, ciudad, estado, pais, password
+) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
 $stmt = $conn->prepare($sql);
 
 if (!$stmt) {
-    echo json_encode(["success" => false, "message" => "Error al preparar la consulta"]);
+    echo json_encode(["success" => false, "message" => "Error al preparar la consulta: " . $conn->error]);
     exit;
 }
 
@@ -106,13 +107,13 @@ if (!$stmt) {
 $fecha_nacimiento_bind = empty($fecha_nacimiento) ? null : $fecha_nacimiento;
 
 $bind_result = $stmt->bind_param(
-    "ssssssssssssss",
+    "sssssssssssssss",  // 15 "s" para 15 parámetros
     $nombre, $rfc, $regimen_fiscal, $email, $lada, $celular, $fecha_nacimiento_bind,
-    $calle, $colonia, $numero, $cp, $ciudad, $estado, $pais
+    $calle, $colonia, $numero, $cp, $ciudad, $estado, $pais, $pass
 );
 
 if (!$bind_result) {
-    echo json_encode(["success" => false, "message" => "Error en los parámetros"]);
+    echo json_encode(["success" => false, "message" => "Error en los parámetros: " . $stmt->error]);
     $stmt->close();
     exit;
 }
@@ -129,7 +130,7 @@ if ($stmt->execute()) {
     if ($conn->errno == 1062) {
         echo json_encode(["success" => false, "message" => "El RFC o Email ya están registrados"]);
     } else {
-        echo json_encode(["success" => false, "message" => "Error al guardar los datos"]);
+        echo json_encode(["success" => false, "message" => "Error al guardar los datos: " . $stmt->error]);
     }
 }
 
